@@ -1,0 +1,1601 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+
+body{
+    font-family: 'Amazon Ember';
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    background: #FFFFFF;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+::-webkit-scrollbar-button{
+  display: none;
+}
+.nav-link{
+  font-family:  sans-serif, ' Amazon Ember';
+  font-size: 17.5px;
+  gap: 1rem;
+  justify-content: space-between;
+  font-weight: 500;
+  font-style: normal;
+}
+.navl{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.gal{
+  display: none !important;
+}
+.card{
+  width: 20rem;
+  height: 23rem;
+
+}
+.our-player{
+  text-align: center;
+}
+.card-body{
+  padding: 0;
+  margin-top: -15px;
+}
+.card-title{
+  font-size: 1.5rem !important;
+  margin-bottom: -10px !important;
+  font-weight: bold;
+  font-style: normal;
+  width: 100%;
+}
+.card-text{
+  color: #090B0C !important;
+  font-weight: bold;
+}
+.card:hover{
+  background: #29ab87 !important;
+  color: black !important;
+
+}
+.playerimg{
+  height: 18rem;
+  width: 100%;
+  object-fit: fill;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  
+  color: #131C22;
+ font-family: 'Amazon Ember';
+
+}
+
+h1, .h1 {
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 58px;
+    letter-spacing: 0.5px;
+    width: 501px;
+    
+    /* soccer black */
+    
+    color: #131C22
+}
+
+h2, .h2 {
+    font-family: 'Amazon Ember';
+    font-size: 46px;
+    line-height: 43px;
+    font-weight: 800;
+    font-style: normal;
+    /* soccer black */
+    width: 501px;
+    
+    color: #131C22;
+}
+
+h3, .h3 {
+  font-size: 26px;
+  font-family: 'Amazon Ember';
+  line-height: 40px;
+  font-weight: 700;
+  font-style: normal;
+  /* soccer black */
+  
+  color: #131C22;
+}
+
+h4, .h4 {
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'Amazon Ember';
+  line-height: 40px;
+  font-weight:600;
+  font-style: normal;
+  /* soccer black */
+  
+  color: #131C22;
+}
+
+h5, .h5 {
+  font-size: 18px;
+  font-family: 'Amazon Ember';
+  line-height: 40px;
+  font-weight: 500;
+  font-style: normal;
+  /* soccer black */
+  
+  color: #131C22;
+
+}
+
+h6, .h6 {
+  font-size: 16px;
+  font-size: 26px;
+  font-family: 'Amazon Ember';
+  line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+  /* soccer black */
+  
+  color: #131C22;
+}
+
+p {
+    font-family: 'Amazon Ember';
+    font-size: 21px;
+    line-height: 34px;
+    letter-spacing: 0.7px;
+  font-style: normal;
+  font-weight: 00;
+
+    
+    color: #1A2126;
+}
+.btn-font{
+    font-family: 'Amazon Ember'
+;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.15px;
+text-transform: uppercase;
+
+/* color white */
+
+color: #FAFAFA;
+}
+.primary, .btn-primary{
+    border: 1px solid #29ab87;
+    border-color: #29ab87 !important;
+    color: #5c5959 !important;
+    background: white !important;
+    font-family: 'Amazon Ember';
+    box-shadow: none !important;
+    cursor: pointer;
+    transition: 0.5s;
+    /* position: relative; */
+    overflow: hidden ;
+    box-shadow: none;
+}
+ 
+.btn-primary:hover{
+    color: #ffffff !important;
+    border-color: #29ab87;
+    background-color:#29ab87 !important;
+   
+}
+.btn-primary{
+  border-radius: 10px !important;
+  height: 3rem !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+
+.col2-body {
+transition: 1s;
+}
+.col2-body img{
+  margin-top: -5px;
+  border-radius: 7px;
+  box-shadow: 0 0 20px 3px #23f09a1a;
+
+}
+.col2-body:hover{
+  transform:scale(1.3);
+  
+  z-index: 1;
+
+}
+.btn-primary::before{
+  content: '';
+  /* position: absolute; */
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #29ab87;
+  z-index: -1 ;
+  transition: 0.8s;
+ 
+}
+
+/* .navbar{
+    width: 100%;
+    height: 114px;
+    left: 0px;
+    top: 0px;
+
+/* color white */
+
+ 
+
+element.style {
+}
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    border-color: #29ab87;
+    color: #29ab87;
+}
+
+element.style {
+}
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    border-color: beige;
+    color: black;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+    border-color: #4195725e;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #58bb7f;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(71 179 89 / 25%);
+    background: #4195725e;
+}
+.navbar-brand{
+    width: 58px;
+    height: 94px;
+    left: 144px;
+    top: 10px;
+}
+.elp2{
+  width: 43px;
+  height: 43px;
+  left: 588px;
+  top: 145px;
+  margin-top: 40px;
+  margin-left:450px;
+
+}
+
+.epl{
+  margin-top: 40px;
+  margin-right:50px;
+
+  width: 47px;
+  height: 47px;
+  left: 211px;
+  top: 136px;
+}
+.col2-body{
+  position: relative;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+.img1{
+  position: absolute;
+ }
+
+.img2{
+   position: absolute;
+   left: 116.92px;
+    top: 118px;
+  
+
+}
+.img3{
+  position: relative;
+  width: 435px;
+  height: 656px;
+  /* left: 100px; */
+  top: -90px;
+ }
+.body-text{
+  width: 512px;
+  height: 88px;
+  left: 149px;
+  top: 423px;
+
+/* 18 p tag */
+
+  font-family: 'Amazon Ember';
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.7px;
+
+  /* soccer other color */
+
+  color: #505050;
+
+/* shadow/shadows 13 */
+
+text-shadow: 0px 48px 100px rgba(17, 12, 46, 0.15);
+
+}
+.btnHero{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: none !important;
+
+    /* position: absolute; */
+    width: 144px;
+    height: 44px;
+    /* left: 149px; */
+    top: 535px;
+
+
+    box-shadow: 0px 48px 100px rgba(17, 12, 46, 0.15);
+    border-radius: 10px;
+}
+.abt{
+  position: relative;
+  margin-top: -20px;
+}
+.abtTop{
+  margin-top: -90px;
+}
+.abt-img1{
+  position: absolute;
+  object-fit: contain;
+  width: 409px;
+  height: 328px;
+  left: 150px;
+  top: 60px;
+  border-radius: 50px;
+}
+.abt-img{
+  object-fit: contain;
+  width: 346.81px;
+  height: 500px;
+  left: 547px;
+  top: 838px;
+  justify-content: center;
+  display: flex;
+
+}
+.abt-left-title{
+  width: 532px;
+  height: 80px;
+  left: 773px;
+  top: 796px;
+  margin-bottom: 20px;
+  
+
+  font-family:' Amazon Ember';
+}
+.abt-left-body{
+  width: 495px;
+  /* height: 220px; */
+  left: 786px;
+  top: 904px;
+
+  font-family: 'Amazon Ember';
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+
+  color: #1A2126;
+
+}
+.abt-left-bodys{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  left: 786px;
+  top: 904px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+line-height: 28px;
+letter-spacing: 0.5px;
+text-transform: capitalize;
+
+color: #1A2126;
+
+}
+.abt-left-body2{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  left: 786px;
+  top: 904px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+line-height: 28px;
+letter-spacing: 0.5px;
+text-transform: capitalize;
+
+color: #1A2126;
+
+}
+/* .abt-left{
+  margin-left: 70px;
+} */
+
+
+/* slider */
+
+.slide {
+  width: 100%;
+  /* margin-top: 150px; */
+  margin-bottom: 40px;
+
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html, body{
+   
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ }
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+.cor-box{
+  width: 231px;
+height: 251px;
+left: 732px;
+top: 1337px;
+border-radius: 25px;
+}
+.slide-title{
+/* margin-bottom: -80px; */
+/* margin-top: 50px; */
+
+/* soccer black 48px */
+
+font-family: 'Amazon Ember';
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+font-weight: 800;
+text-transform: capitalize;
+text-align: center;
+/* soccer black */
+
+color: #131C22;
+}
+.b{
+  width: 120px;
+  justify-content: center;
+  margin-left: 500px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: solid 2px;
+  border-color: #29ab87
+}
+.soccerimg{
+  position: absolute;
+  width: 512px;
+  height: 512px;
+  left: -181px;
+  top: 1566px;
+
+}
+.c-heading{
+width: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 27px;
+  margin-left: -30px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  
+  color: #29AB87;
+
+}
+.c-subtitle{
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 14px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.5px;
+text-transform: capitalize;
+
+/* color white */
+
+color: #FAFAFA;
+
+}
+.c-content{
+  border:solid 3px;
+  border-radius:10px;
+  height: 60px;
+  padding: 3px;
+  width: 350px;
+  /* margin-top: 20px; */
+
+}
+.c-img{
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+.l{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/icons/bg.png);
+  background-position: static;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 236px;
+  left: 0px;
+  top: 0px;
+}
+.l-logo{
+  width: 200px;
+  height: 224.32px;
+  left: 109px;
+  top: 10px;
+  margin-bottom: 20px
+}
+footer{
+
+  height: 490px;
+  left: 0px;
+  top: 3644px;
+
+  background: #090B0C;
+}
+ul{
+  list-style: none;
+}
+.bi-text{
+  font-family: 'Amazon Ember'
+;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.5px;
+text-transform: capitalize;
+
+/* color white */
+
+color: #FAFAFA;
+}
+.link-li{
+  width: 73px;
+height: 24px;
+left: 859px;
+top: 158px;
+
+font-family:'Amazon Ember';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.5px;
+text-transform: capitalize;
+
+/* color white */
+
+color: #FAFAFA;
+
+}
+.str-title2{
+  display: none !important;
+}
+
+
+/* about uspage  */
+.aboutus-header{
+  background: linear-gradient(0deg, rgba(0,0, 2, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/image3.png);
+
+  width: 100vw;
+  height: 578px;
+}
+.about-title{
+  top: -610px;
+  right: -219px;
+
+
+  /* soccer black 48px */
+
+  font-family: 'Amazon Ember';
+  font-size: 48px;
+  line-height: 56px;
+  /* identical to box height, or 117% */
+
+  text-transform: capitalize;
+
+  /* color grey 2 */
+
+  color: #F1F1F1;
+}
+.mv-right{
+  margin-top: 30px;
+}
+.m-title, .v-title{
+  font-family: 'Amazon Ember';
+  font-size: 36px;
+  line-height: 56px;
+  font-style: normal;
+  font-weight: 700;
+  /* identical to box height, or 117% */
+
+  /* text-align: center;
+  text-transform: capitalize; */
+  margin-left: 150px;
+
+  /* color grey 2 */
+
+  color: #F1F1F1;
+  }
+  .m-body, .v-body{
+    font-family: 'Amazon Ember';
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.5px;
+text-transform: capitalize;
+
+/* color grey 2 */
+
+color: #F1F1F1;
+
+  }
+.mv-2{
+  background: #131C22;
+  height: 525px;
+}
+.mv{
+  position: relative;
+  margin-top: 60px;
+}
+.mv-img{
+  position: absolute;
+width: 342px;
+height: 383px;
+left: -112px;
+top: 66px;
+opacity: .4;
+  }
+  .mission, .vision{
+    margin-top: 30px;
+    max-width: 415px;
+    margin-left: 154px;
+  }
+  .mv-right{
+    height:465px;
+    left: 0px;
+    margin-left: -11.2px;
+    width: 100vw;
+  }
+  .about-title {
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    left: 619px;
+    top: 261px;
+    margin-top: 120px;
+    /* soccer black 48px */
+    
+    font-family: 'Amazon Ember';
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    
+    text-transform: capitalize;
+    
+    /* color grey 2 */
+    
+    color: #F1F1F1;
+  }
+
+
+  /* academy page  */
+  .acd-header{
+  background: linear-gradient(0deg, rgba(0,0, 2, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/image5.png);
+  width: 100vw;
+  height: 578px;
+  }
+
+  .acd-title{
+
+    position: absolute;
+    width: 50%;
+    height: 56px;
+    left: 340px;
+    top: 261px;
+    margin-top: 120px;
+    /* soccer black 48px */
+    
+    font-family: 'Amazon Ember';
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    
+    text-transform: capitalize;
+    
+    /* color grey 2 */
+    
+    color: #F1F1F1;
+    
+  }
+
+  /* .acd-img1{
+    position: absolute;
+    width: 409px;
+    height: 328px;
+    left: 70px;
+  
+    top: 45px;
+    /* border-radius: 50px; */
+   */
+  .acd-img{
+    position: absolute;
+  width: 320px;
+  height: 246px;
+  left: 190px;
+  top: -3px;
+  
+  }
+  .str-header{
+    background: linear-gradient(90.94deg, #131C22 17.1%, rgba(5, 26, 41, 0.45515) 54.7%, rgba(0, 0, 0, 0) 86.11%), url(../assets/img/img7.png);
+    /* position: absolute; */
+    width: 100vw;
+    height: 304px;
+    left: 0px;
+    top: 0px;
+
+    }
+
+    .str-title{
+      width: 470px;
+      height: 46px;
+      left: 254px;
+      top: 85px;
+      margin-right: -100px;
+      margin-top: 30px;
+      margin-left: 30px;
+
+      /* soccer black 48px */
+      
+      font-family: 'Amazon Ember';
+      font-size: 48px;
+      line-height: 56px;
+      /* identical to box height, or 117% */
+      
+      text-transform: capitalize;
+      
+      /* soccer black */
+      
+      color: #ffffff;
+    }
+    .str{
+      margin-top: -300px;
+    }
+    .str2{
+      margin-top: 212px;
+      
+    }
+    /* gallery page  */
+
+    .g-header{
+      background: linear-gradient(20deg, rgba(0,0, 2, 0.6), rgba(0, 0, 0, 0.7)), url(../assets/img/image8.png);
+      width: 100vw;
+      height: 578px;
+      }
+
+      /* contact page  */
+.cont-text{
+  width: 516px;
+  height: 144px;
+  left: 30px;
+  top: 60px;
+
+  font-family: 'Amazon Ember';
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  padding: 20px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+
+  /* grey 2 */
+
+  color: #F7F7F7;
+}
+.cont-li{
+  margin-top: 10px;
+}
+.cont{
+  background: linear-gradient(20deg, rgba(0,0, 2, 0.6), rgba(0, 0, 0, 0.7)), url(../assets/img/cont.png);
+  height: 463px;
+  left: 505px;
+  top: 0px;
+  background-repeat: no-repeat;
+}
+
+.shadow{
+  /* width: 575px; */
+  height: 463px;
+  left: 505px;
+  top: 0px;
+}
+.cont-header{
+  background: linear-gradient(20deg, rgba(0,0, 2, 0.6), rgba(0, 0, 0, 0.7)), url(../assets/img/goal.png);
+  width: 100vw;
+  height: 578px;
+  }
+
+  .p-header{
+    background: linear-gradient(20deg, rgba(0,0, 2, 0.6), rgba(0, 0, 0, 0.7)), url(../assets/img/goal2.png);
+    width: 100vw;
+    height: 578px;
+    }
+
+    footer>img{
+      width: 68px;
+      height: 76.34px;
+      left: 135px;
+      top: 15px;
+    }
+
+    a{
+      text-decoration: none;
+    }
+   
+    .blog-header{
+      background: linear-gradient(20deg, rgba(0,0, 2, 0.6), rgba(0, 0, 0, 0.7)), url(../assets/img/blogh.png);
+      width: 100vw;
+      height: 578px;
+      }
+.bh{
+  /* position: absolute; */
+  width: 976px;
+  height: 352px;
+  left: 232px;
+  top: 770px 
+}
+.blog-body{
+  width: 100%;
+  margin-left: 150px;
+}
+      .blog-text{
+        width: 970px;
+height: 940px;
+left: 232px;
+top: 1154px;
+
+font-family: 'Amazon Ember';
+font-size: 18px;
+line-height: 20px;
+/* or 111% */
+
+text-transform: capitalize;
+
+/* soccer other color */
+
+color: #505050;
+      }
+
+      .blog-text2{
+        width: 970px;
+        height: 940px;
+        left: 232px;
+        top: 1154px;
+        
+        font-family: 'Amazon Ember';
+        font-size: 18px;
+        line-height: 20px;
+        /* or 111% */
+        
+        text-transform: capitalize;
+        
+        /* soccer other color */
+        
+        color: #505050;
+      }
+
+.footer-img{
+  width: 68px;
+  height: 76.34px;
+  left: 135px;
+  top: 15px;
+}
+
+.slide-box, .c-body{
+  transition: 1s;
+  }
+  .slide-box img, .c-body img{
+    
+    border-radius: 7px;
+    box-shadow: 0 0 20px 3px #23f09a1a;
+  
+  }
+  .cor-box:hover{
+    transform:scale(1.3);
+    padding: 10px;
+    
+    /* z-index: 2; */
+  
+  }
+  .pl{
+    border-radius: 7px;
+
+  }
+  .pl img:hover{
+    transition: 1s;
+    box-shadow: 0 0 10px 3px #23f09a1a;
+    transform:scale(1.3);
+
+
+  }
+  .accordion-body{
+    text-align: left;
+    width: 500px;
+  }
+
+ .cont-body2{
+   width: 40%;
+ }
+  
+  
+
+
+
+
+
+
+
+
+  
+  @media (max-device-width: 768px) 
+  and (orientation: portrait) { 
+
+  body{
+    font-family: 'Amazon Ember';
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    background: #FFFFFF;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+::-webkit-scrollbar-button{
+  display: none;
+}
+.nav-link{
+  font-family:  sans-serif, ' Amazon Ember';
+  font-size: 1rem !important;
+  font-weight: 500;
+  font-style: normal;
+  gap: 1rem;
+}
+.navl{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  
+  color: #131C22;
+ font-family: 'Amazon Ember';
+
+}
+
+h1, .h1 {
+    font-family: 'Amazon Ember';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: 0.3px;
+    width: 401px;
+    
+    /* soccer black */
+    
+    color: #131C22
+}
+
+h2, .h2 {
+    font-family: 'Amazon Ember';
+    font-size: 26px;
+    line-height: 43px;
+    font-weight: 800;
+    font-style: normal;
+    /* soccer black */
+    width: 301px;
+    
+    color: #131C22;
+}
+
+h3, .h3 {
+  font-size: 18px;
+  font-family: 'Amazon Ember';
+  line-height: 21px;
+  font-weight: 700;
+  font-style: normal;
+  /* soccer black */
+  
+  color: #131C22;
+}
+
+h4, .h4 {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: 'Amazon Ember';
+  line-height: 40px;
+  font-weight:600;
+  font-style: normal;
+  /* soccer black */
+  
+  color: #131C22;
+}
+
+h5, .h5 {
+  font-size: 18px;
+  font-family: 'Amazon Ember';
+  line-height: 40px;
+  font-weight: 500;
+  font-style: normal;
+  /* soccer black */
+  
+  color: #131C22;
+
+}
+
+h6, .h6 {
+  font-size: 16px;
+  font-size: 26px;
+  font-family: 'Amazon Ember';
+  line-height: 40px;
+  font-weight: 400;
+  font-style: normal;
+  /* soccer black */
+  
+  color: #131C22;
+}
+
+p {
+    font-family: 'Amazon Ember';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3px;
+  font-style: normal;
+  font-weight: 00;
+
+    
+    color: #1A2126;
+}
+
+.abt{
+  position: relative;
+  margin-top: -20px;
+  /* width: 300px; */
+}
+.abtTop{
+  margin-top: -90px;
+}
+.abt-img1{
+  position: absolute;
+  width: 250px;
+  height: 238px;
+  left: 50px;
+
+  top: 10px;
+  border-radius: 30px;
+}
+.abt-img{
+  width: 346.81px;
+  height: 600px;
+
+}
+.abt-left{
+  width: 300px;
+  padding: 0px;
+  margin:0%;
+  margin-top: -65px;
+}
+.mv-2{
+  background: #131C22;
+  height: 525px;
+}
+.mv{
+  position: relative;
+  margin-top: 60px;
+}
+.mv-img{
+  position: absolute;
+width: 342px;
+height: 383px;
+left: -112px;
+top: 66px;
+opacity: .4;
+  }
+  .mission, .vision{
+    margin-top: 30px;
+    max-width: 415px;
+    margin-left: 154px;
+  }
+  .mv-right{
+    height:465px;
+    left: 0px;
+    margin-left: -11.2px;
+    width: 100vw;
+  }
+  .abt-left-bodys{
+    width: 450px;
+    /* height: 220px; */
+    left: 786px;
+    top: 904px;
+  
+    font-family: 'Amazon Ember';
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+  
+    color: #1A2126;
+  
+  }
+  .abt-left-body2{
+    width: 450px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+  left: 786px;
+  top: 904px;
+  
+  font-family: 'Amazon Ember';
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+  
+  color: #1A2126;
+  
+  }
+  .str{
+    width: 100%
+  }
+  .str2-img{
+    width: 520px;
+    margin-top: 90px;
+  }
+  .pl>img{
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+    margin-left: 10px;
+    width: 300px;
+  }
+  .elp2{
+    width: 33px;
+    height: 33px;
+    left: 488px;
+    top: 145px;
+    margin-top: 40px;
+    margin-left:350px;
+  
+  }  
+  .epl{
+    margin-top: 60px;
+    margin-right:50px;
+  
+    width: 47px;
+    height: 47px;
+    left: 211px;
+    top: 156px;
+  }
+  .body-text{
+    width: 342px;
+    height: 88px;
+    left: 129px;
+    top: 323px;
+  
+  /* 18 p tag */
+  
+    font-family: 'Amazon Ember';
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+  
+    /* soccer other color */
+  
+    color: #505050;
+  
+  /* shadow/shadows 13 */
+  
+  text-shadow: 0px 48px 100px rgba(17, 12, 46, 0.15);
+  
+  }
+  .herocol-left{
+    margin-top: -40px;
+  }
+  .header-titl {
+    margin-top: -40px;
+  }
+  .btnHero{
+    margin-top: 30px;
+    box-shadow: none !important;
+
+  }
+  #aboutsection{
+    width: 100%;
+  }
+  .abt-body{
+   width: 100%;
+  height: 108px;
+  font-family: 'Amazon Ember', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+  display: flex;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+
+  color: #1A2126;
+  }
+ 
+  .abt-left-bodyh, .abt-left-body2h  {
+    width: 330px;
+    margin-top: -20px;
+    font-size: 1rem;
+    font-family: 'Amazon Ember', sans-serif;
+    letter-spacing: 0.5px;  
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px; 
+    padding: 5px;
+    
+  }
+  .hi{
+    margin-top: 40px !important;
+  }
+  .mv-2{
+    background: #131C22;
+    height: 425px;
+  }
+
+  .mv{
+    position: relative;
+    margin-top: 80px !important;
+  }
+  .mv-img{
+    position: absolute;
+  width: 342px;
+  height: 353px;
+  left: -112px;
+  top: 66px;
+  opacity: .4;
+    }
+    .mission, .vision{
+      margin-top: 30px;
+      max-width: 415px;
+      margin-left: 104px;
+    }
+    .mv-right{
+      height:400px;
+      left: 0px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    .m-title, .v-title{
+      font-family: 'Amazon Ember';
+      font-size: 28px;
+      line-height: 36px;
+      font-style: normal;
+      font-weight: 700;
+      /* identical to box height, or 117% */
+    
+      text-align: center;
+      text-transform: capitalize;
+      margin-left: -80px;
+    
+      /* color grey 2 */
+    
+      color: #F1F1F1;
+      }
+      .m-body{
+        font-family: 'Amazon Ember';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin-left: -120px;
+    /* color grey 2 */
+    
+    color: #F1F1F1;
+    
+      }
+   .v-body{
+        font-family: 'Amazon Ember';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    margin-left: -100px;
+    /* color grey 2 */
+    /* margin-top: -10px; */
+    color: #F1F1F1;
+    
+      }
+     
+      .abt-left-title{
+        width: 532px;
+        height: 80px;
+        left: 773px;
+        top: 796px;
+        margin-bottom: -25px;  
+      
+        font-family:' Amazon Ember';
+      }
+      .abt-left-body{
+        width: 350px;
+        /* height: 220px; */
+        left: 786px;
+        top: 904px;
+      
+        font-family: 'Amazon Ember';
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-transform: capitalize;
+      
+        color: #1A2126;
+      
+      }
+      .abt-left-body2{
+        width: 350px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      
+      left: 786px;
+      top: 904px;
+      
+      font-family: 'Amazon Ember';
+      font-size: 18px;
+      line-height: 23px;
+      letter-spacing: 0.5px;
+      text-transform: capitalize;
+      
+      color: #1A2126;
+      }
+      .str-title, .str2{
+       display: none;
+      }
+      .str-bg {
+        width: 594px;
+        height: 450px;
+      }
+
+      .abt-left-bodys,  .b2{
+        width: 650px;
+        /* height: 220px; */
+        left: 786px;
+        top: 904px;
+      
+        font-family: 'Amazon Ember';
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-transform: capitalize;
+      
+        color: #1A2126;
+      
+      }
+      /* .abt-left-body2{
+        width: 495px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      
+      left: 786px;
+      top: 904px;
+      
+      font-family: 'Amazon Ember';
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+      text-transform: capitalize;
+      
+      color: #1A2126;
+      
+      } */
+
+      .slide-title{
+        font-size: 38px;
+      }
+      .cont-text{
+        width: 330px;
+        height: 144px;
+        left: 30px;
+        top: 60px;
+      
+        font-family: 'Amazon Ember';
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+        margin-top: 20px;
+        padding: 10px;
+        letter-spacing: 0.5px;
+        text-transform: capitalize;
+      
+        /* grey 2 */
+      
+        color: #F7F7F7;
+        margin-left: -20px;
+        margin-bottom: 50px ;
+      }
+      .cont-li{
+        margin-top: 50px;
+        padding: 10px;
+        margin-left: -20px;
+
+      }
+      .acd-img23{
+        display: flex !important;
+        justify-content: center;  
+        width: 300px !important;
+        height: 250px !important;
+        
+      }
+      .acd-img22{
+        /* z-index: 0 !important; */
+        margin-top: 90px !important;
+        margin-left: 350px !important;
+        height: 100px !important;
+      }
+      .acd-img{
+       display: none;
+      
+      }
+.acc-title {
+  display: flex !important;
+  justify-content: center;
+  width: 100%;
+  text-align: center !important;
+  margin-bottom: -30px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+text-transform: capitalize;
+
+/* soccer black */
+
+color: #131C22;
+}
+
+.acd-body{
+  width: 1116px;
+/* 18 p tag */
+
+margin-top: 250px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 27px;
+letter-spacing: 0.5px;
+text-transform: capitalize;
+
+/* soccer other color */
+
+color: #505050;
+}
+/* .acdemy-body{
+  justify-content: center;
+  display: flex;
+  width: 100%;
+} */
+
+.contactrow{
+  width: 75% !important;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
