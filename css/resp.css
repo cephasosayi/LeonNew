@@ -104,7 +104,7 @@
   /* mobile responsiveness */
 
   /* responsiveness  */
-  @media only screen and (max-width: 640px){
+  @media only screen and (max-width: 480px){
 
     html, body{
           width: 100% !important;
@@ -112,9 +112,11 @@
           overflow-x: hidden;
           scroll-behavior: smooth !important;
        }
-       .container{
-         width: 100%;
-        
+       .caroselsec{
+        margin-top: 3rem !important;
+        height: 25rem !important;
+        display: block;
+        margin-bottom: -5rem !important;
       }
       
       .contactrow{
@@ -130,23 +132,20 @@
       .acd-body{
         width: 100%;
         font-size: 1rem !important;
-        font-family: 'poppins', sans-serif;
+        font-family:sans-serif, 'Amazon Ember';
         font-weight: normal;
         font-weight: 24px;
         font-style: normal;
         margin-top: -5px !important;
       }
      
-       .slide, .slide-title {
-         display: none;
-       }
        .herocol-left{
         order: 2 !important;
     }
     .gal-title{
       width: 100%;
     height: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family:sans-serif, 'Amazon Ember';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -180,14 +179,14 @@ text-align: left;
      h6, .h6 {
        font-weight: 700;
        color: #131C22;
-      font-family: 'Amazon Ember';
+      font-family:sans-serif, 'Amazon Ember';
      
      }  
      .bg-dark{
        margin-top: 120px;
      }
      h1, .h1 {
-         font-family: 'Amazon Ember';
+         font-family:sans-serif, 'Amazon Ember';
          font-style: normal;
          font-weight: bold;
          font-size: 2.125rem !important;
@@ -201,7 +200,7 @@ text-align: left;
      }
      
      h2, .h2 {
-         font-family: 'Amazon Ember';
+         font-family:sans-serif, 'Amazon Ember';
          font-size: 20px;
          line-height: 34px;
          /* or 111% */
@@ -236,7 +235,7 @@ text-align: left;
      
        }
      p, .p{
-         font-family: 'Amazon Ember';
+         font-family:sans-serif, 'Amazon Ember';
          font-size: 1rem;
          line-height: 24px;
          letter-spacing: 0.7px;
@@ -269,7 +268,7 @@ text-align: left;
        height: 88px;
         /* 18 p tag */
      
-       font-family: 'Amazon Ember';
+       font-family:sans-serif, 'Amazon Ember';
        font-size: 1rem;
        line-height: 22px;
        letter-spacing: 0.5px;
@@ -339,19 +338,20 @@ text-align: left;
      .abt{
        display: block !important;
        margin-bottom: 2rem;
-       margin-top: 2rem;
+       margin-top: 1rem;
+       position: relative;
 
      }
      .abt-img1{
-      /* position: absolute; */
+      /* position: relative; */
       /* margin-left: 450px !important; */
-      width: 315px !important;
-      height: 310px !important;
-      margin-left: -40px !important;    
+      width: 340px !important;
+      height: 330px !important;
+      margin-left: -132px !important;    
       border-radius: 50px;
-      max-width: -350px;
-      margin-top: 50px;
-      margin-bottom: 50px !important;
+      max-width: -350px !important;
+      margin-top: -60px;
+      margin-bottom: 0px !important;
 
     }
      .abt2{
@@ -388,7 +388,7 @@ text-align: left;
        width: 323px;
        padding: 5px;
        font-size: 1rem;
-       font-family: 'Amazon Ember';
+       font-family:sans-serif, 'Amazon Ember';
        letter-spacing: 0.5px;  
        line-height: 24px; 
        /* margin-top: ; */
@@ -448,8 +448,8 @@ text-align: left;
      }
      .abt-body{
           width: 100%;
-        height: 108px;
-        font-family: 'Poppins', sans-serif;
+        height: 90px;
+        font-family:sans-serif, 'Amazon Ember';
         font-style: normal;
         font-weight: 400;
         font-size: 1rem;
@@ -458,6 +458,7 @@ text-align: left;
         letter-spacing: 0.5px;
         text-transform: capitalize;
         z-index: 1;
+        margin-top: -45px;
       
         color: #1A2126;
     }
@@ -521,7 +522,7 @@ text-align: left;
        height: 52px;
        margin-bottom: 50px;
        margin-top: -70px !important;        
-       font-family: 'Poppins', sans-serif;
+       font-family:sans-serif, 'Amazon Ember';
        font-style: normal;
        font-weight: 600;
        font-size: 30px !important;
@@ -537,7 +538,7 @@ text-align: left;
        width: 330px;
        padding: 5px;
        font-size: 16px;
-       font-family: 'Amazon Ember';
+       font-family:sans-serif, 'Amazon Ember';
        letter-spacing: 0.5px;  
        line-height: 24px; 
        margin-left: -5px;    
@@ -548,16 +549,18 @@ text-align: left;
    
      .abt-left-bodyh, .abt-left-body2h  {
        width: 330px;
+       height: 13rem;
        /* margin-left: -3px; */
        font-size: 16px;
-       font-family: 'Amazon Ember';
+       font-family:sans-serif, 'Amazon Ember';
        letter-spacing: 0.5px;  
        line-height: 24px; 
        padding: 5px;
+       margin-top: 70px !important;
        
      }
      .abt-left-body{
-       margin-top: 70px;
+       margin-top: 20px;
      }
      .abt{
        display: none;
@@ -573,7 +576,7 @@ text-align: left;
 
       }
      /* .m-title, .v-title{
-       font-family: 'Amazon Ember';
+       font-family:sans-serif, 'Amazon Ember';
        font-size: 38px;
        line-height: 46px;
        /* identical to box height, or 117% */
@@ -587,7 +590,7 @@ text-align: left;
        /* } */ */
      
        .m-body, .v-body{
-         font-family: 'Amazon Ember';
+         font-family:sans-serif, 'Amazon Ember';
            font-size: 1rem;
            line-height: 22px;
            /* width: 100% !important; */
@@ -728,7 +731,7 @@ text-align: left;
      }
    
      .nav-link{
-       font-family: 'Amazon Ember';
+       font-family:sans-serif, 'Amazon Ember';
        font-size: 16px;
        font-weight: 500;
        font-style: normal;

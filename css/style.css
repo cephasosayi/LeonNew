@@ -2,7 +2,7 @@
 
 
 body{
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     width: 100%;
     height: 100%;
     margin: 0;
@@ -19,7 +19,7 @@ body{
 .nav-link{
   font-family:  sans-serif, ' Amazon Ember';
   font-size: 17.5px;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: space-between;
   font-weight: 500;
   font-style: normal;
@@ -74,12 +74,12 @@ h5, .h5,
 h6, .h6 {
   
   color: #131C22;
- font-family: 'Amazon Ember';
+ font-family:sans-serif, 'Amazon Ember';
 
 }
 
 h1, .h1 {
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-style: normal;
     font-weight: 900;
     font-size: 58px;
@@ -93,7 +93,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-size: 46px;
     line-height: 43px;
     font-weight: 800;
@@ -106,7 +106,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 26px;
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   line-height: 40px;
   font-weight: 700;
   font-style: normal;
@@ -118,7 +118,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 22px;
   line-height: 30px;
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   line-height: 40px;
   font-weight:600;
   font-style: normal;
@@ -129,7 +129,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 18px;
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   line-height: 40px;
   font-weight: 500;
   font-style: normal;
@@ -142,7 +142,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 16px;
   font-size: 26px;
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   line-height: 40px;
   font-weight: 400;
   font-style: normal;
@@ -152,7 +152,7 @@ h6, .h6 {
 }
 
 p {
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-size: 21px;
     line-height: 34px;
     letter-spacing: 0.7px;
@@ -163,7 +163,7 @@ p {
     color: #1A2126;
 }
 .btn-font{
-    font-family: 'Amazon Ember'
+    font-family:sans-serif, 'Amazon Ember';
 ;
 font-style: normal;
 font-weight: 600;
@@ -183,7 +183,7 @@ color: #FAFAFA;
     border-color: #29ab87 !important;
     color: #5c5959 !important;
     background: white !important;
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     box-shadow: none !important;
     cursor: pointer;
     transition: 0.5s;
@@ -232,15 +232,7 @@ transition: 1s;
  
 }
 
-/* .navbar{
-    width: 100%;
-    height: 114px;
-    left: 0px;
-    top: 0px;
 
-/* color white */
-
- 
 
 element.style {
 }
@@ -324,7 +316,7 @@ button:focus:not(:focus-visible) {
 
 /* 18 p tag */
 
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.7px;
@@ -388,7 +380,7 @@ text-shadow: 0px 48px 100px rgba(17, 12, 46, 0.15);
   margin-bottom: 20px;
   
 
-  font-family:' Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
 }
 .abt-left-body{
   width: 495px;
@@ -396,7 +388,7 @@ text-shadow: 0px 48px 100px rgba(17, 12, 46, 0.15);
   left: 786px;
   top: 904px;
 
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.5px;
@@ -412,7 +404,7 @@ text-shadow: 0px 48px 100px rgba(17, 12, 46, 0.15);
   margin-bottom: 30px;
   left: 786px;
   top: 904px;
-  font-family: 'Poppins', sans-serif;
+  font-family:sans-serif, 'Amazon Ember';
   font-size: 17px;
 line-height: 28px;
 letter-spacing: 0.5px;
@@ -428,7 +420,7 @@ color: #1A2126;
   margin-bottom: 30px;
   left: 786px;
   top: 904px;
-  font-family: 'Poppins', sans-serif;
+  font-family:sans-serif, 'Amazon Ember';
   font-size: 17px;
 line-height: 28px;
 letter-spacing: 0.5px;
@@ -502,12 +494,8 @@ top: 1337px;
 border-radius: 25px;
 }
 .slide-title{
-/* margin-bottom: -80px; */
-/* margin-top: 50px; */
 
-/* soccer black 48px */
-
-font-family: 'Amazon Ember';
+font-family:sans-serif, 'Amazon Ember';
 font-size: 48px;
 line-height: 56px;
 /* identical to box height, or 117% */
@@ -537,7 +525,7 @@ color: #131C22;
 }
 .c-heading{
 width: 100%;
-  font-family: 'Poppins';
+  font-family:sans-serif, 'Amazon Ember';
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -608,7 +596,7 @@ ul{
   list-style: none;
 }
 .bi-text{
-  font-family: 'Amazon Ember'
+  font-family:sans-serif, 'Amazon Ember';
 ;
 font-style: normal;
 font-weight: normal;
@@ -629,7 +617,7 @@ height: 24px;
 left: 859px;
 top: 158px;
 
-font-family:'Amazon Ember';
+font-family:sans-serif, 'Amazon Ember';
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -663,7 +651,7 @@ color: #FAFAFA;
 
   /* soccer black 48px */
 
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   font-size: 48px;
   line-height: 56px;
   /* identical to box height, or 117% */
@@ -678,7 +666,7 @@ color: #FAFAFA;
   margin-top: 30px;
 }
 .m-title, .v-title{
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   font-size: 36px;
   line-height: 56px;
   font-style: normal;
@@ -694,7 +682,7 @@ color: #FAFAFA;
   color: #F1F1F1;
   }
   .m-body, .v-body{
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
 font-size: 18px;
 line-height: 24px;
 text-align: center;
@@ -742,7 +730,7 @@ opacity: .4;
     margin-top: 120px;
     /* soccer black 48px */
     
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-size: 48px;
     line-height: 56px;
     /* identical to box height, or 117% */
@@ -772,7 +760,7 @@ opacity: .4;
     margin-top: 120px;
     /* soccer black 48px */
     
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-size: 48px;
     line-height: 56px;
     /* identical to box height, or 117% */
@@ -823,7 +811,7 @@ opacity: .4;
 
       /* soccer black 48px */
       
-      font-family: 'Amazon Ember';
+      font-family:sans-serif, 'Amazon Ember';
       font-size: 48px;
       line-height: 56px;
       /* identical to box height, or 117% */
@@ -856,7 +844,7 @@ opacity: .4;
   left: 30px;
   top: 60px;
 
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   font-size: 16px;
   line-height: 24px;
   /* or 150% */
@@ -930,7 +918,7 @@ height: 940px;
 left: 232px;
 top: 1154px;
 
-font-family: 'Amazon Ember';
+font-family:sans-serif, 'Amazon Ember';
 font-size: 18px;
 line-height: 20px;
 /* or 111% */
@@ -948,7 +936,7 @@ color: #505050;
         left: 232px;
         top: 1154px;
         
-        font-family: 'Amazon Ember';
+        font-family:sans-serif, 'Amazon Ember';
         font-size: 18px;
         line-height: 20px;
         /* or 111% */
@@ -1017,7 +1005,7 @@ color: #505050;
   and (orientation: portrait) { 
 
   body{
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     width: 100%;
     height: 100%;
     margin: 0;
@@ -1052,12 +1040,12 @@ h5, .h5,
 h6, .h6 {
   
   color: #131C22;
- font-family: 'Amazon Ember';
+ font-family:sans-serif, 'Amazon Ember';
 
 }
 
 h1, .h1 {
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-style: normal;
     font-weight: 900;
     font-size: 38px;
@@ -1071,7 +1059,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-size: 26px;
     line-height: 43px;
     font-weight: 800;
@@ -1084,7 +1072,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 18px;
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   line-height: 21px;
   font-weight: 700;
   font-style: normal;
@@ -1096,7 +1084,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 16px;
   line-height: 30px;
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   line-height: 40px;
   font-weight:600;
   font-style: normal;
@@ -1107,7 +1095,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 18px;
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   line-height: 40px;
   font-weight: 500;
   font-style: normal;
@@ -1120,7 +1108,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 16px;
   font-size: 26px;
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   line-height: 40px;
   font-weight: 400;
   font-style: normal;
@@ -1130,7 +1118,7 @@ h6, .h6 {
 }
 
 p {
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.3px;
@@ -1202,7 +1190,7 @@ opacity: .4;
     left: 786px;
     top: 904px;
   
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.5px;
@@ -1219,7 +1207,7 @@ opacity: .4;
   left: 786px;
   top: 904px;
   
-  font-family: 'Amazon Ember';
+  font-family:sans-serif, 'Amazon Ember';
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.5px;
@@ -1267,7 +1255,7 @@ opacity: .4;
   
   /* 18 p tag */
   
-    font-family: 'Amazon Ember';
+    font-family:sans-serif, 'Amazon Ember';
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.7px;
@@ -1298,7 +1286,7 @@ opacity: .4;
   .abt-body{
    width: 100%;
   height: 108px;
-  font-family: 'Amazon Ember', sans-serif;
+  font-family:sans-serif, 'Amazon Ember';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -1315,7 +1303,7 @@ opacity: .4;
     width: 330px;
     margin-top: -20px;
     font-size: 1rem;
-    font-family: 'Amazon Ember', sans-serif;
+    font-family:sans-serif, 'Amazon Ember';
     letter-spacing: 0.5px;  
     font-style: normal;
     font-weight: normal;
@@ -1356,7 +1344,7 @@ opacity: .4;
       width: 100%;
     }
     .m-title, .v-title{
-      font-family: 'Amazon Ember';
+      font-family:sans-serif, 'Amazon Ember';
       font-size: 28px;
       line-height: 36px;
       font-style: normal;
@@ -1372,7 +1360,7 @@ opacity: .4;
       color: #F1F1F1;
       }
       .m-body{
-        font-family: 'Amazon Ember';
+        font-family:sans-serif, 'Amazon Ember';
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -1385,7 +1373,7 @@ opacity: .4;
     
       }
    .v-body{
-        font-family: 'Amazon Ember';
+        font-family:sans-serif, 'Amazon Ember';
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -1405,7 +1393,7 @@ opacity: .4;
         top: 796px;
         margin-bottom: -25px;  
       
-        font-family:' Amazon Ember';
+        font-family:sans-serif, 'Amazon Ember';
       }
       .abt-left-body{
         width: 350px;
@@ -1413,7 +1401,7 @@ opacity: .4;
         left: 786px;
         top: 904px;
       
-        font-family: 'Amazon Ember';
+        font-family:sans-serif, 'Amazon Ember';
         font-size: 18px;
         line-height: 24px;
         letter-spacing: 0.5px;
@@ -1430,7 +1418,7 @@ opacity: .4;
       left: 786px;
       top: 904px;
       
-      font-family: 'Amazon Ember';
+      font-family:sans-serif, 'Amazon Ember';
       font-size: 18px;
       line-height: 23px;
       letter-spacing: 0.5px;
@@ -1452,7 +1440,7 @@ opacity: .4;
         left: 786px;
         top: 904px;
       
-        font-family: 'Amazon Ember';
+        font-family:sans-serif, 'Amazon Ember';
         font-size: 18px;
         line-height: 24px;
         letter-spacing: 0.5px;
@@ -1469,7 +1457,7 @@ opacity: .4;
       left: 786px;
       top: 904px;
       
-      font-family: 'Amazon Ember';
+      font-family:sans-serif, 'Amazon Ember';
       font-size: 18px;
       line-height: 24px;
       letter-spacing: 0.5px;
@@ -1488,7 +1476,7 @@ opacity: .4;
         left: 30px;
         top: 60px;
       
-        font-family: 'Amazon Ember';
+        font-family:sans-serif, 'Amazon Ember';
         font-size: 16px;
         line-height: 24px;
         /* or 150% */
@@ -1532,7 +1520,7 @@ opacity: .4;
   width: 100%;
   text-align: center !important;
   margin-bottom: -30px;
-  font-family: 'Poppins';
+  font-family:sans-serif, 'Amazon Ember';
 font-style: normal;
 font-weight: 600;
 font-size: 48px;
@@ -1545,14 +1533,16 @@ text-transform: capitalize;
 
 color: #131C22;
 }
-
+.caroselsec{
+  height: 22rem;
+}
 .acd-body{
   width: 1116px;
 /* 18 p tag */
 
 margin-top: 250px;
 
-font-family: 'Poppins', sans-serif;
+font-family:sans-serif, 'Amazon Ember';
 font-style: normal;
 font-weight: 500;
 font-size: 1rem;
@@ -1575,27 +1565,4 @@ color: #505050;
   display: flex;
   justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
