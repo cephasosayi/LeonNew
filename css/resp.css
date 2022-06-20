@@ -362,8 +362,8 @@ text-align: left;
       margin-bottom: -15px !important;
 
     }
-     .abt2{
-         margin-top: 2.5rem;
+     .abt{
+         margin-top: -9rem !important;
      }
      .abtimg{
        margin-left: 100px !important;
@@ -461,7 +461,7 @@ text-align: left;
      }
      .abt-body{
           width: 100%;
-        height: 90px;
+        height: 250px;
         font-family:sans-serif, 'Amazon Ember';
         font-style: normal;
         font-weight: 400;
