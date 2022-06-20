@@ -110,6 +110,10 @@
   @media only screen and (max-width: 480px){
 
     html, body{
+          padding: 0;
+          margin: 0;
+          top: 0;
+          bottom: 0;
           width: 100% !important;
           height:100%;
           overflow-x: hidden;
@@ -496,20 +500,80 @@ text-align: left;
 
      }
     
-    
      footer{
-       width: 100%;
-       height: 700px;
-       position: relative;
-       justify-content: center;
-       align-items: center;
-       text-align: center;     
-       background: #090B0C;
-     }
-     footer>img{
-      width: 350px;
-      height: 200px;
-      justify-content: center;
+      position: relative;
+      height: auto;
+      bottom: 0 !important;
+      background: #090B0C !important;
+      width: 100%;
+      padding: 0 !important;
+      border-top: 3px solid #29ab87;
+    }
+    .footer-cont{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .footer-header{
+      font-size: 14px !important;
+      width: 100% !important;
+      font-weight: bold;
+      display: block;
+    }
+    .contact-info > span {
+      position: relative;
+      font-size: 12px !important;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem !important;
+      margin-top: 6px !important;
+    }
+    .footer-cont >:nth-last-of-type(3) {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      gap: 1rem;
+      left: -4.5rem;
+      flex: 2;
+      font-family: sans-serif, 'Amazon Ember';
+    }
+    .footer-cont >:nth-last-of-type(2) {
+      position: relative;
+      display: flex;
+      flex-direction: column !important;
+      gap: 0rem;
+      width: 20%;
+      flex: 2;
+      left: 2rem;
+      font-family: sans-serif, 'Amazon Ember';
+    
+    }
+    .footer-cont >:nth-last-of-type(1) {
+      position: relative;
+      display: flex;
+      flex-direction: column !important;
+      gap: 1rem;
+      width: 100%;
+      top: 1.5rem;
+      flex: 2;
+      left: -4.5rem;
+      font-family: sans-serif, 'Amazon Ember';
+    
+    }
+    .links{
+      display: flex;
+      flex-direction: column;
+      gap: .6rem;
+      cursor: pointer;
+
+      font-size: 12px;
+    }
+    .copyr{
+      font-size: 12px !important;
+      padding: 15px !important;
     }
     .link-li, .bi-text{
       margin-bottom: 50px;
