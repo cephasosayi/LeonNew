@@ -135,6 +135,7 @@
         width: 350px !important;
         height: 300px !important;
         margin-bottom: 30px !important;
+        object-fit: cover;
       }
       .acd-body{
         width: 100%;
@@ -389,7 +390,7 @@ text-align: left;
      }
      .acc-title{
        width: 100%;
-       font-size: 30px;
+       font-size: 25px !important;
        margin-bottom: 20px;
        margin-top: -20px !important;
      }
@@ -410,7 +411,7 @@ text-align: left;
        margin-top: -40px;
      }
      .slide-title, .faq-title, .c-title{
-       font-size: 30px;
+       font-size: 25px !important;
        justify-content: center;
        display: flex;
        width: 100%;    
@@ -420,6 +421,7 @@ text-align: left;
          margin-top: 0px;
          margin-bottom: -10px;
          text-align: left !important;
+         font-size: 25px !important;
      }
      .accordion-body{
        width: 100%;
@@ -433,7 +435,7 @@ text-align: left;
     display: flex;
     justify-content: center !important;
     align-items: center !important;
-    font-size: 30px;
+    font-size: 25px;
      margin-bottom: 20px;
      margin-top: 20px;
 
@@ -453,7 +455,7 @@ text-align: left;
        display: none;
      }
      .s-title{
-       font-size: 26px;  
+       font-size: 25px !important;  
        width: 350px;
      }
      .c-body{
@@ -602,14 +604,14 @@ text-align: left;
        /* margin-top: -30px; */
      }
      .abt-left-title1{
-       width: 100% !important;
+       width: 90% !important;
        height: 52px;
        margin-bottom: 50px;
        margin-top: -70px !important;        
        font-family:sans-serif, 'Amazon Ember';
        font-style: normal;
        font-weight: 600;
-       font-size: 30px !important;
+       font-size: 24px !important;
        line-height: 34px;
        /* or 106% */    
        margin-bottom: 1rem;
@@ -621,7 +623,7 @@ text-align: left;
      .abt-left-body, .abt-left-body2  {
        width: 330px;
        padding: 5px;
-       font-size: 16px;
+       font-size: 14px;
        font-family:sans-serif, 'Amazon Ember';
        letter-spacing: 0.5px;  
        line-height: 24px; 
@@ -651,7 +653,7 @@ text-align: left;
        }
        .mobile-title{
         display: block !important;
-       font-size: 30px;
+       font-size: 25px;
        margin-top: -7rem;
        margin-bottom: 4rem !important;
 
@@ -663,19 +665,7 @@ text-align: left;
         margin-bottom: 3rem !important;
 
       }
-     /* .m-title, .v-title{
-       font-family:sans-serif, 'Amazon Ember';
-       font-size: 38px;
-       line-height: 46px;
-       /* identical to box height, or 117% */
      
-       /* text-align: center;
-       text-transform: capitalize; */
-     
-       /* color grey 2 */
-     
-       /* color: #F1F1F1; */
-       /* } */ */
      
        .m-body, .v-body{
          font-family:sans-serif, 'Amazon Ember';
@@ -718,6 +708,7 @@ text-align: left;
         align-items: center !important;
         margin-top: 35px;
         left: -1.8rem;
+        font-size: 25px;
        
      }
      .pl>img{
@@ -741,6 +732,8 @@ text-align: left;
       align-items: center !important;
       margin-top: 25px;
       left: -1.8rem;
+      font-size: 25px;
+
 
     
      }    
@@ -765,18 +758,13 @@ text-align: left;
      }
      
      .abt-left-title{
-       font-size: 38px;
+       font-size: 25px;
        margin-bottom: -95px;
        text-align: center;
      }
-     .abt-left-title1{
-       font-size: 38px;
-       /* margin-bottom: -95px; */
-       /* text-align: center; */
-       
-     }
+   
      .str-title2{
-       font-size: 38px;
+       font-size: 25px;
        margin-left: -90px;
        margin-bottom: -30px;
      }
@@ -867,14 +855,7 @@ text-align: left;
      .herocol-right{
        margin-left: -10px;
     }
-    /* .l{
-      width: 350px;
-      height: 180px;
-    }
    
-   .l-form h2{
-    font-size: 28px;
-   } */
    .n2{
      margin-top: -50px;
      /* width: 320px; */
