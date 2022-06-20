@@ -355,7 +355,7 @@ text-align: left;
       justify-content: center;
       width: 330px !important;
       height: 330px !important;
-      margin-left: -80px !important;    
+      margin-left: -29px !important;    
       border-radius: 50px;
       /* max-width: 350px !important; */
       margin-top: -60px;
@@ -619,7 +619,7 @@ text-align: left;
          
        }
        .m-body, .v-body{
-        margin-left: -9.7rem;
+        margin-left: -6.5rem;
         width: 100%;
 
        }
@@ -646,8 +646,8 @@ text-align: left;
         display: flex;
         justify-content: center;
         align-items: center !important;
-        margin-top: 25px;
-        left: -19rem;
+        margin-top: 35px;
+        left: -1.8rem;
        
      }
      .pl>img{
@@ -670,7 +670,8 @@ text-align: left;
       justify-content: center;
       align-items: center !important;
       margin-top: 25px;
-      left: -19rem;
+      left: -1.8rem;
+
     
      }    
      .v-body{
@@ -681,16 +682,12 @@ text-align: left;
       }
         .mission{
         margin-top: -30px;
-      }
-      .mission{
        width: 100% !important;
-       /* margin-left: 0px; */
        padding: 19px;
      }
      .vision{
        margin-top: -30px;
        width: 100%;
-       /* margin-left: -13px; */
        padding: 19px;
      }
      .v-body{
