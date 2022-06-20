@@ -501,8 +501,9 @@ text-align: left;
      }
     
      footer{
+      background-image: url('../assets/icons/logo.png');
       position: relative;
-      height: auto;
+      height:40rem;
       bottom: 0 !important;
       background: #090B0C !important;
       width: 100%;
