@@ -653,7 +653,7 @@ text-align: left;
        }
        .mobile-title{
         display: block !important;
-       font-size: 25px;
+       font-size: 26px !important;
        margin-top: -7rem;
        margin-bottom: 4rem !important;
 
