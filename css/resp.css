@@ -374,7 +374,7 @@ text-align: left;
       justify-content: center;
       width: 330px !important;
       height: 330px !important;
-      margin-left: -29px !important;    
+      margin-left: -30px !important;    
       border-radius: 50px;
       /* max-width: 350px !important; */
       margin-top: -60px;
@@ -727,6 +727,14 @@ text-align: left;
         left: -1.8rem;
         font-size: 25px;
        
+     }
+     .pl{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: -3px;
      }
      .pl>img{
      margin-left: 0px;
