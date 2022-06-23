@@ -98,7 +98,13 @@
 }
 
 
-
+a{
+  text-decoration: none !important;
+  color: #F1F1F1;
+ }
+ a:hover{
+  color: #29ab87;
+ }
 
 
 
@@ -438,8 +444,13 @@ text-align: left;
          text-align: left !important;
          font-size: 25px !important;
      }
-     .accordion-body{
+     .accordion{
        width: 100%;
+       padding-left: 3px;
+     }
+     .accordion-body{
+      width: 100%;
+      padding: 3px;
      }
      .c-title{
        width: 90%;
